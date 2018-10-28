@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cstdlib>
+#include<cmath>
+
+using namespace std;
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+class test{
+	
+	public:
+		
+		int niz[5];
+		
+		void unos(){
+			for (int i=1;i<=5;i++){
+				cout<<"Unesi "<<i<<". clan niza: ";
+				cin>> niz[5];
+			}
+		}
+		void ispis() {
+			for (int i=1;i<=5;i++){
+				cout<<niz[i]<<" ";
+			}
+		}
+	
+};
+
+int main(int argc, char** argv) {
+	
+	test x;
+	x.unos();
+	x.ispis();
+	
+	
+	
+	return 0;
+}
